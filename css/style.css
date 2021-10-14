@@ -1,0 +1,7 @@
+.image-thumbnail {
+	height: 48px;
+	max-width: 48px;
+}
+.qty-input {
+	min-width: 125px;
+}

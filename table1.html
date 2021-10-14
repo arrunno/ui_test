@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid black;
+        }
+
+        thead{
+            border: 3px solid black;
+            line-height: 45px; ;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        .header-highlight{
+            font-weight: bold;
+        }
+        .subtotals-row{
+            background-color: rgba(180, 180, 180, 0.99);
+        }
+
+        .totals-row{
+            background-color: aqua;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>UI Test</title>
+</head>
+<body>
+    <table>
+        <tbody>
+        <thead>
+        <thead>
+        <tr class="table">
+            <th colspan="5">Travel expenses report</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td class="header-highlight">Meals</td>
+                <td class="header-highlight">Hotels</td>
+                <td class="header-highlight">Transport</td>
+                <td>Subtotals</td>
+            </tr>
+            <tr>
+                <td class="header-highlight">San Jose</td>
+                <td colspan="3"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>25-Aug-97</td>
+                <td>37.74</td>
+                <td>112.00</td>
+                <td>45</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>26-Aug-97</td>
+                <td>27.28</td>
+                <td>112.00</td>
+                <td>45</td>
+                <td></td>
+            </tr>
+            <tr class="subtotals-row">
+                <td>subtotals</td>
+                <td>65.02</td>
+                <td>224.00</td>
+                <td>90</td>
+                <td>379.02</td>
+            </tr>
+            <tr>
+                <td class="header-highlight">Seattle</td>
+                <td colspan="3"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>27-Aug-97</td>
+                <td>96.25</td>
+                <td>109.00</td>
+                <td>36.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>28-Aug-97</td>
+                <td>35.00</td>
+                <td>109.00</td>
+                <td>36.00</td>
+                <td></td>
+            </tr>
+            <tr class="subtotals-row">
+                <td>subtotals</td>
+                <td>131.25</td>
+                <td>218.00</td>
+                <td>72.00</td>
+                <td>421.25</td>
+            </tr>
+            <tr class="totals-row">
+                <td class="header-highlight"> Totals</td>
+                <td>131.25</td>
+                <td>218.00</td>
+                <td>72.00</td>
+                <td class="header-highlight">421.25</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
